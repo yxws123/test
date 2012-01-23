@@ -1,0 +1,30 @@
+.webfx-tree-container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: icon; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.webfx-tree-item {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: icon; COLOR: black; PADDING-TOP: 0px; WHITE-SPACE: nowrap; HEIGHT: 16px
+}
+.webfx-tree-item A {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; MARGIN-LEFT: 3px; PADDING-TOP: 1px
+}
+.webfx-tree-item A:active {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; MARGIN-LEFT: 3px; PADDING-TOP: 1px
+}
+.webfx-tree-item A:hover {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; MARGIN-LEFT: 3px; PADDING-TOP: 1px
+}
+.webfx-tree-item A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.webfx-tree-item A:hover {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+.webfx-tree-item A:active {
+	BACKGROUND: highlight; COLOR: highlighttext; TEXT-DECORATION: none
+}
+.webfx-tree-item IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.webfx-tree-icon {
+	WIDTH: 16px; HEIGHT: 16px
+}

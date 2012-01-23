@@ -1,0 +1,462 @@
+/*************************************
+   WELCOME TO THE CUSTOM STYLESHEET
+--------------------------------------
+              style.css
+        BlueTrip CSS Framework
+    Put your custom styles in here.
+***************************************/
+
+/**************************************/
+/*           COLOR SCHEME             */
+/**************************************
+- black		#000
+- white		#fff
+-           #
+-           #
+-           #
+***************************************/
+.color1 { color: #fefefe}
+.color2 { color: #ffffff}
+.color3 { color: #fffffd}
+.color4 { color: #feffff}
+.color5 { color: #171717}
+.color6 { color: #d80621}
+.color7 { color: #0e0e0e}
+.color8 { color: #d50924}
+.color9 { color: #000000}
+.color10 { color: #d70626}
+.color11 { color: #fdfffc}
+.color12 { color: #d2d2d2}
+
+
+/**************************************/
+/*              GLOBALS               */
+/**************************************/
+html {
+	/**font-size: 70%;*/
+}
+
+body {
+	margin: 0 0px auto 0px; 
+	background-color: #FFF;
+	/**font-family: Arial, Helvetica, sans-serif;*/	
+	color:#333; 
+	/**font: 12px/22px verdana, arial, sans-serif;*/
+	font-size: 8pt;
+	font-family: verdana, arial, sans-serif;
+}
+
+form {
+	margin: 0;
+}
+	
+table {
+	border-collapse:collapse;
+}
+
+.row {
+	/**width: 926px;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -10px;
+	width: auto;
+	display: inline-block;
+}
+.column {
+	margin: 0 0px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+
+div.errorMsg {
+color: red;
+font-size: smaller;
+font-family: arial,sans-serif;
+}
+
+/**************************************/
+/*              HEADER                */
+/**************************************/
+#header {
+	border-bottom: 0px solid #EEE;
+}
+
+#logo {
+	text-align: center;
+	line-height: 26px;
+	/**
+	background-color: #6B90DA; 
+	*/
+	background-color: #d70626;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#logonInfo {
+	text-align: center;
+	line-height: 20px;
+	background-color: #FFF;
+}
+
+/**************************************/
+/*             NAVIGATION             */
+/**************************************/
+
+/**
+ *
+ */
+#action_block {
+	margin: 0;
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	line-height: 30px;
+	border-bottom: 5px solid #EEEEEE;
+}
+
+/**
+ * MESSAGES
+ */
+#msg_block {
+	text-align: center;
+	height: 30px;
+}
+
+#msg {
+	/**line-height: 26px;*/
+	/**background-color: #FFFF66;*/
+	color: #FF0000;
+	/**
+	position:absolute;
+  	left:100px;
+  	top:0px;
+  	z-index:3000;
+  	*/
+}
+
+/**************************************/
+/*            MAIN CONTENT            */
+/**************************************/
+#main_content {
+}
+
+/**
+ * login
+ */
+#login {
+	width: 320px;
+	margin: 50px auto 400px;
+	border: 0px solid #009933;
+}
+
+#login table {
+	border-collapse:collapse;
+	border:1px solid #d70626;
+	width: 100%;
+}
+
+#login table td {
+	padding: 3px;
+	border: 0px;
+}
+
+#login table th {
+	background-color: #d70626;
+	color:#FFFFFF;
+	border: 0px;
+}
+
+#login table td.fieldName {
+	text-align: right;
+	width: 35%;
+}
+
+#login table td.fieldValue {
+	text-align: left;
+}
+
+/**
+ * left_side
+ */
+ 
+#left_side {
+	width: 100%;
+	margin: 0;
+	border-right: 0px solid #EEEEEE;
+}
+
+#right_side {
+	width: 82%;
+}
+
+#breadcrumb {
+	border-bottom: 0px solid #CCCCCC;
+	background-color: #FFF7D2;
+	line-height: 30px;
+	padding-left: 0.5em;
+}
+
+.breadcrumb {
+	border-bottom: 1px solid #BBB;
+	/**
+	background-color: #CCCCFF;
+	background-color: #FFF7D2;
+	background-color: #EFEFEF;
+	*/
+	background-color: #F7F7F7;
+	line-height: 26px;
+	padding-left: 0.5em;
+}
+
+#page_title {
+	background-color: #EEEEEE;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #D80621;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+#search {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0.5em;
+}
+
+
+.list {
+	border: 1px solid #CCCCCC;
+	width: 100%
+}
+
+.list th {
+	background-color: #FFF7D2;
+/**
+	background-color: #6B90DA; 
+	background-color: #EBEFF9;
+	background-color: #3B64B7;
+	*/
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+	/**color: #666;*/
+	color: #666;
+}
+
+.list td {
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+}
+
+.edit {
+	border: 1px solid;
+	width: 100%;
+}
+
+.edit th {
+	background-color: #EEEEEE;
+}
+
+.edit td {
+}
+
+#list_area {
+}
+
+#list_block {
+	border: 0px solid #CCCCCC;
+}
+
+#edit_area {
+	border: 0px solid;
+}
+
+#edit_block {
+	border: 0px solid #CCCCCC;
+}
+
+.hl {
+	background-color: #CCCCFF;
+}
+
+/**************************************/
+/*               FOOTER               */
+/**************************************/
+#footer {
+	background:none repeat scroll 0 0 #DCDCDC;
+	border:0 solid #000000;
+	clear:both;
+	height:32px;
+	margin-top:0px;
+	width:100%;
+	text-align: center;
+	line-height:32px;
+	vertical-align:middle;
+}
+
+#side_menu {
+	margin: 1em 0.5em 1em 1em;
+	border: 0px solid;
+}
+
+#actionbar_block {
+	background-color: #EEE;
+	line-height: 32px;
+	/**
+	margin-left: 10px;
+	margin-right: 10px;
+	*/
+	border-top: 1px solid #CCCCCC;
+}
+
+.actionbar {
+	background-color: #F7F7F7;
+	line-height: 26px;
+	/**
+	background-color: #EFEFEF;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	*/
+	border-bottom: 1px solid #BBB;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.hl {
+	background-color: #FFFFB0;
+}
+
+.cell-1 {
+	padding: 0.5em;
+	text-align: right;
+	/**line-height: 26px;*/
+	background-color: #EFEFEF; 
+	border: 1px solid #CCCCCC;
+}
+
+.cell-2 {
+	padding: 0.5em;
+	text-align: left;
+	background-color: #FFFFFF; 
+	border: 1px solid #CCCCCC;
+}
+
+.cell-3 {
+	padding: 0.5em;
+	text-align: right;
+	/**background-color: #EBEFF9;*/ 
+	background-color: #FFFFF1;
+	border: 1px solid #CCCCCC;
+}
+
+.cell-4 {
+	padding: 0.5em;
+	text-align: left;
+	background-color: #FFFFFF; 
+	border: 1px solid #CCCCCC;
+}
+
+.cell-5 {
+	padding: 0.5em;
+	text-align: center;
+	/**
+	background-color: #E8EEFA;
+	*/
+	background-color: #FFFFF1;
+	border: 1px solid #CCCCCC;
+}
+
+.cell-6 {
+	padding: 0.5em;
+	text-align: center;
+	background-color: #FFFFFF; 
+	border: 1px solid #CCCCCC;
+}
+
+.tab {
+	line-height: 26px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.active {
+	background-color: #CCCCFF;
+}
+
+.select-disabled {
+}
+
+.subTitle {
+	/**padding: 0.5em;*/ 
+	font-weight: bold; 
+	border: 0px solid; 
+	color: #0000EE;
+}
+
+.container {
+	margin-top: 1em;
+}
+
+.container-f {
+	margin-top: 0em;
+}
+
+.container .titleBar {
+	/**background-color: #CCCCFF;*/ 
+	background-color: #FFF7D2;
+	/**background-color: #EFEFEF;*/
+}
+
+.container .titleBar .left {
+	font-weight: bold; 
+	color: #0000EE;
+	padding: 0.5em;
+}
+
+.container .titleBar .right {
+	padding: 0.5em;
+	float: right;	
+}
+
+.container .actionBar {
+	background-color: #FFFFFF; 
+}
+
+.container .actionBar .left {
+	padding: 0.5em;
+}
+
+.container .actionBar .right {
+	padding: 0.5em;
+	float: right;	
+}
+
+table.width100 {
+	border: 1px solid #CCCCCC;
+	width: 100%;
+}
+
+table.width75 {
+	border: 1px solid #F1F1F1;
+	width: 75%;
+}
+
+table.width50 {
+	border: 1px solid #F1F1F1;
+	width: 50%;
+}
+
+td {padding: 3px; text-align: left;}
+td.left {text-align: left;}
+td.right {text-align: right;}
+td.center {text-align: center;}
+td.category {font-weight: bold; background-color: #FFF7D2; /**#FFF0BA;*/ color: #0000EE;}
+
+.bkg-D {background-color: #EEEEEE;}
+.bkg-P {background-color: #FFFFB0;}
+.bkg-N {background-color: #FFFF00; /**#FFD850;*/}
+.bkg-A {background-color: #90EE90; /**#CCEEDD; #ACF49C;*/}
+.bkg-R {background-color: #FFA0A0;}
